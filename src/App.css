@@ -34,13 +34,18 @@ form{
 }
 
 .newTodoInput{
-  min-height: 60px;
+  min-height: 58px;
   min-width: 252px;
   border: none;
   outline:none;
   font-size: 20px;
   padding-left: 25px;
 }
+
+.error{
+  border: 1px solid red;
+}
+
 .addButton{
   margin-right: 0px;
   height: 66px;
@@ -54,7 +59,6 @@ form{
 .dateInput{
   min-width: 130px;
   min-height: 60px;
-  border: none;
   outline:none;
   font-size: 18px;
   padding-left: 25px;

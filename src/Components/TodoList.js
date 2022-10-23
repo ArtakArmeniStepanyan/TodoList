@@ -11,7 +11,7 @@ const TodoList = ({todos, onChange, onDelete}) => {
 
     todos.map((t) => {
         dates.map((d) => {
-            if(d == t.date)
+            if(d === t.date)
                 return exist = true;
             else
                 return exist = false;
