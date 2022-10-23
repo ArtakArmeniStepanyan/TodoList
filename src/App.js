@@ -24,6 +24,12 @@ function App() {
       date: '2022-10-16',
       isCompleted: false
     },
+    {
+      id: 4,
+      text: 'Get a better job',
+      date: '2022-11-16',
+      isCompleted: false
+    },
   ])
 
   const addNewTodo = (newTodo) => {
